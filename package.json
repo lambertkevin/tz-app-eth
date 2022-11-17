@@ -1,0 +1,24 @@
+{
+  "name": "tz-app-eth",
+  "version": "0.0.1",
+  "description": "Communication layer with Trezor ethereum app",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "lint": "prettier --write .",
+    "prepare": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@trezor/connect": "^9.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.3",
+    "@types/ws": "^5.1.2",
+    "prettier": "2.7.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}

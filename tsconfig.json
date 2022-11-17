@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "outDir": "lib" // if out path for a file is same as its src path, nothing will be emitted
+  }
+}
